@@ -76,4 +76,14 @@ public class Queue {
 		indexOut = 0;
 		indexIn = size -1;
 	}
+	
+	public void print() {
+		System.out.print("[");
+		for(int i = 0; i < queue.length; i++) {
+			if(queue[i] != null) {
+				System.out.print(queue[i] + ",");
+			}
+		}
+		System.out.print("]");
+	}
 }
