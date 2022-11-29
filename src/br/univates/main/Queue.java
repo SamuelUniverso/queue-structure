@@ -13,7 +13,7 @@ public class Queue {
 	public Queue()
 	{
 		queue = new Object[DEFAULT];
-		empty();
+		clear();
 	}
 	
 	public int size()
@@ -21,7 +21,7 @@ public class Queue {
 		return size;
 	}
 	
-	public void empty()
+	public void clear()
 	{
 		size = 0;
 		indexOut = 0;
