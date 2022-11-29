@@ -1,5 +1,7 @@
 package br.univates.main;
 
+/// Source: http://sites.poli.usp.br/p/fabio.cozman/Didatico/Comp/Material/estruturas.pdf
+
 public class Queue {
 	
 	private Object queue[];
